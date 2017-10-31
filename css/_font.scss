@@ -1,0 +1,212 @@
+/* DEFAULT FONT SETTINGS */
+/* 16px base font size with 150% (24px) friendly, unitless line height and margin for vertical rhythm */
+/* Font-size percentage is based on 16px browser default size */
+body,button,input,select,textarea {
+	font: 100%/1.5 Arial, sans-serif;
+	*font-size: 1em;
+	color: $color3;
+}
+
+/* IE7 and older can't resize px based text */
+p,blockquote,q,pre,address,hr,code,samp,dl,ol,ul,form,table,fieldset,menu {
+	margin: 0 0 1.5em;
+	padding: 0;
+}
+
+/* TYPOGRAPHY */
+h1,h2,h3,h4,h5,h6 {
+	font-family: 'Libre Baskerville', serif;
+	font-weight: normal;
+	color: $color6;
+}
+
+h1 {
+	margin: 0;
+	font-size: 3em;
+	line-height: 1.2em;
+	margin-bottom: 0.8em;
+}
+
+h2 {
+	margin: 0;
+	font-size: 2.5em;
+	line-height: 1em;
+	margin-bottom: 1em;
+}
+
+h3 {
+	margin: 0;
+	font-size: 2em;
+	line-height: 1.3em;
+	margin-bottom: 0.7em;
+}
+
+h4 {
+	margin: 0;
+	font-size: 1.5em;
+	line-height: 1em;
+	margin-bottom: 1em;
+}
+
+h5 {
+	margin: 0;
+	font-size: 1.25em;
+	line-height: 1.15em;
+	margin-bottom: 1.15em;
+}
+
+h6 {
+	margin: 0;
+	font-size: 1em;
+	line-height: 1.3em;
+	margin-bottom: 1.3em;
+}
+
+p,ul,blockquote,pre,td,th,label {
+	margin: 0;
+	font-size: 1em;
+	margin-bottom: 1.5em;
+}
+
+small,p.small {
+	margin: 0;
+	font-size: 0.875em;
+	line-height: 1.715em;
+	margin-bottom: 1.715em;
+}
+
+@media screen and ( max-width: 1024px ) {
+	h1 {
+	    font-size: 2.25em;
+    }
+}
+
+@media screen and ( max-width: 600px ) {
+	h1 {
+	margin: 0;
+	font-size: 2.25em;
+	line-height: 1.2em;
+	margin-bottom: 0.4em;
+}
+
+h2 {
+	margin: 0;
+	font-size: 2em;
+	line-height: 1em;
+	margin-bottom: 0.5em;
+}
+
+h3 {
+	margin: 0;
+	font-size: 1.75em;
+	line-height: 1.3em;
+	margin-bottom: 0.6667em;
+}
+
+h4 {
+	margin: 0;
+	font-size: 1.5em;
+	line-height: 1em;
+	margin-bottom: 1em;
+}
+
+h5 {
+	margin: 0;
+	font-size: 1.25em;
+	line-height: 1.15em;
+	margin-bottom: 1.15em;
+}
+
+h6 {
+	margin: 0;
+	font-size: 1em;
+	line-height: 1.3em;
+	margin-bottom: 1.3em;
+}
+
+p,ul,blockquote,pre,td,th,label {
+	margin: 0;
+	font-size: 1em;
+	margin-bottom: 1.5em;
+}
+
+small,p.small {
+	margin: 0;
+	font-size: 0.875em;
+	line-height: 1.715em;
+	margin-bottom: 1.715em;
+}
+
+}
+
+@media screen and ( max-width: 450px ) {
+	h1 {
+	margin: 0;
+	font-size: 2em;
+	line-height: 1.2em;
+	margin-bottom: 0.4em;
+}
+
+h2 {
+	margin: 0;
+	font-size: 1.75em;
+	line-height: 1em;
+	margin-bottom: 0.5em;
+}
+
+h3 {
+	margin: 0;
+	font-size: 1.5em;
+	line-height: 1.3em;
+	margin-bottom: 0.6667em;
+}
+
+h4 {
+	margin: 0;
+	font-size: 1.25em;
+	line-height: 1em;
+	margin-bottom: 1em;
+}
+
+h5 {
+	margin: 0;
+	font-size: 1em;
+	line-height: 1.15em;
+	margin-bottom: 1.15em;
+}
+
+h6 {
+	margin: 0;
+	font-size: 1em;
+	line-height: 1.3em;
+	margin-bottom: 1.3em;
+}
+
+p,ul,blockquote,pre,td,th,label {
+	margin: 0;
+	font-size: 1em;
+	margin-bottom: 1.5em;
+}
+
+small,p.small {
+	margin: 0;
+	font-size: 0.875em;
+	line-height: 1.715em;
+	margin-bottom: 1.715em;
+}
+
+}
+
+body {
+	font-family: 'Open Sans',Helvetica,Arial,sans-serif;
+	font-size: 100%;
+}
+
+/* entypo */
+[class*="entypo-"]:before {
+	font-family: 'entypo', sans-serif;
+}
+
+.text-center {
+	text-align: center;
+}

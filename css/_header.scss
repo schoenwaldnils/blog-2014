@@ -1,0 +1,89 @@
+.header {
+	padding: 100px 0 0;
+	background: #fafafa;
+}
+
+.header-title {
+	max-width: 800px;
+	margin: 0 auto;
+	position: relative;
+	min-height: 500px;
+}
+
+.header-headline {
+	// font-size: 350%;
+	margin-bottom: 1em;
+	width: 55%;
+	float: right;
+}
+
+.header-subline {
+	font-size: 120%;
+	line-height: 1.5em;
+	width: 55%;
+	float: right;
+}
+
+.header-picture {
+	width: 40%;
+	height: 500px;
+	float: left;
+	background: url('../media/me.png') no-repeat left;
+
+	-webkit-background-size: 100% auto;
+	-moz-background-size: 100% auto;
+	background-size: 100% auto;
+	position: absolute;
+	bottom: 0;
+}
+
+@media screen and (max-width: 850px) {
+	.header-headline {
+	float: none;
+	text-align: center;
+	display: block;
+	width: auto;
+}
+
+.header-subline {
+	float: none;
+	width: auto;
+	max-width: 500px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.header-picture {
+	width: 314px;
+	height: 500px;
+	float: none;
+	display: block;
+	margin: 0 auto;
+	position: relative;
+}
+
+}
+
+#mobile:target ~ .case .header-headline,#tablet:target ~ .case .header-headline {
+	float: none;
+	text-align: center;
+	display: block;
+	width: auto;
+}
+
+#mobile:target ~ .case .header-subline,#tablet:target ~ .case .header-subline {
+	float: none;
+	width: auto;
+	max-width: 500px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#mobile:target ~ .case .header-picture,#tablet:target ~ .case .header-picture {
+	width: 314px;
+	height: 500px;
+	float: none;
+	display: block;
+	margin: 0 auto;
+	position: relative;
+}

@@ -1,0 +1,75 @@
+.work-entry {
+	margin: 50px 0;
+	border-radius: 20px;
+	overflow: hidden;
+	display: block;
+}
+
+.work-text {
+	display: block;
+	padding: 0 20px;
+	background: #fafafa;
+}
+
+.work-text h2 {
+	padding-top: 20px;
+	margin-bottom: 0.3em;
+	color: #777;
+}
+
+.icon-link:after {
+	padding-top: 2px;
+}
+
+.icon-link {
+	display: block;
+	padding-bottom: 20px;
+	font-size: 110%;
+}
+
+.work-text span {
+	font-family: 'Open Sans',Helvetica,Arial,sans-serif;
+	margin-left: 5px;
+}
+
+.work-picture {
+	display: block;
+	height: 530px;
+
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	background-size: cover;
+	background-position: center;
+
+	-webkit-transition: background-position 5s;
+	-moz-transition: background-position 5s;
+	-o-transition: background-position 5s;
+	-ms-transition: background-position 5s;
+	transition: background-position 5s;
+}
+
+@media screen and (max-width: 600px) {
+    .work-picture {
+        height: 365px;
+    }
+}
+
+.work-rw .work-picture {
+	background-image: url('../media/rw.jpg');
+}
+
+.work-kai .work-picture {
+	background-image: url('../media/kai.jpg');
+}
+
+.work-blog .work-picture {
+	background-image: url('../media/blog.jpg');
+}
+
+.work-codepen .work-picture {
+	background-image: url('../media/codepen.jpg');
+}
+
+.work-nibbler .work-picture {
+	background-image: url('../media/nibbler.jpg');
+}

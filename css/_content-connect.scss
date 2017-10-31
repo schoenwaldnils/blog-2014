@@ -1,0 +1,79 @@
+#connect {
+	padding: 70px 0;
+	text-align: center;
+}
+
+.connect-icon {
+	display: inline-block;
+	height: 45px;
+	width: 45px;
+	border-radius: 200px;
+	// background: $color8;
+	margin: 0 2px;
+	line-height: 45px;
+	font-size: 150%;
+
+	-webkit-transition: background 500ms, color 500ms, box-shadow 500ms;
+	-moz-transition: background 500ms, color 500ms, box-shadow 500ms;
+	-o-transition: background 500ms, color 500ms, box-shadow 500ms;
+	-ms-transition: background 500ms, color 500ms, box-shadow 500ms;
+	transition: background 500ms, color 500ms, box-shadow 500ms;
+}
+
+.connect-icon:hover {
+	color: $color2;
+}
+
+.icon-twitter:hover {
+	background: $c-twitter;
+
+	-webkit-box-shadow: 0 0 0 5px $color3, 0 0 0 8px $c-twitter;
+	box-shadow: 0 0 0 5px $color3, 0 0 0 8px $c-twitter;
+}
+
+.icon-facebook:hover {
+	background: $c-facebook;
+
+	-webkit-box-shadow: 0 0 0 5px $color3, 0 0 0 8px $c-facebook;
+	box-shadow: 0 0 0 5px $color3, 0 0 0 8px $c-facebook;
+}
+
+.icon-googleplus:hover {
+	background: $c-gplus;
+
+	-webkit-box-shadow: 0 0 0 5px $color3, 0 0 0 8px $c-gplus;
+	box-shadow: 0 0 0 5px $color3, 0 0 0 8px $c-gplus;
+}
+
+.icon-codepen:hover {
+	background: $c-codepen;
+
+	-webkit-box-shadow: 0 0 0 5px $color3, 0 0 0 8px $c-codepen;
+	box-shadow: 0 0 0 5px $color3, 0 0 0 8px $c-codepen;
+}
+
+.icon-behance:hover {
+	background: $c-behance;
+
+	-webkit-box-shadow: 0 0 0 5px $color3, 0 0 0 8px $c-behance;
+	box-shadow: 0 0 0 5px $color3, 0 0 0 8px $c-behance;
+}
+
+.icon-xing:hover {
+	background: $c-xing;
+
+	-webkit-box-shadow: 0 0 0 5px $color3, 0 0 0 8px $c-xing;
+	box-shadow: 0 0 0 5px $color3, 0 0 0 8px $c-xing;
+}
+
+.icon-paperplane:hover {
+	background: $c-paperplane;
+
+	-webkit-box-shadow: 0 0 0 5px $color3, 0 0 0 8px $c-paperplane;
+	box-shadow: 0 0 0 5px $color3, 0 0 0 8px $c-paperplane;
+}
+
+.footer {
+	margin: 15px 0 0;
+	color: $color7;
+}

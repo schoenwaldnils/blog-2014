@@ -1,0 +1,38 @@
+.contact-text {
+	max-width: 800px;
+	font-size: 120%;
+	line-height: 1.5em;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.contact-text h1 {
+	font-size: 200%;
+}
+
+.contact-text p {
+	max-width: 500px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.contact-footer {
+	display: block;
+	text-align: center;
+	padding-top: 50px;
+}
+
+.contact-button {
+	font-size: 110%;
+	padding: 20px 30px;
+	border-radius: 10px;
+	background: #ba3e48;
+	color: #fff;
+	margin: 0 auto;
+}
+
+.contact-button:hover {
+	color: #fff;
+	-webkit-box-shadow: 0 0 0 5px #fafafa, 0 0 0 8px #ba3e48;
+	box-shadow: 0 0 0 5px #fafafa, 0 0 0 8px #ba3e48;
+}

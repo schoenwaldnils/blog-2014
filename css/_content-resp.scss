@@ -1,0 +1,65 @@
+#resp {
+	background: $color3;
+	text-align: center;
+}
+
+@media screen and (max-width: 500px) {
+	#resp .bttn {
+	-webkit-transform: scale(.7);
+	-moz-transform: scale(.7);
+	-o-transform: scale(.7);
+	-ms-transform: scale(.7);
+	transform: scale(.7);
+}
+
+}
+
+#resp h3 {
+	padding-top: 50px;
+	color: #fafafa;
+	margin-bottom: 0em;
+	line-height: 1.5em;
+}
+
+.resp-left,.resp-center,.resp-right {
+	width: 33.3%;
+	text-align: center;
+}
+
+.resp-left,.resp-center,.resp-right {
+	float: left;
+}
+
+.bttn {
+	display: block;
+	margin: 50px auto;
+	height: 100px;
+	width: 100px;
+	border-radius: 50px;
+	background: #fafafa;
+	position: relative;
+}
+
+.bttn:hover {
+	-webkit-box-shadow: 0 0 0 5px $color3, 0 0 0 8px #fafafa;
+	box-shadow: 0 0 0 5px $color3, 0 0 0 8px #fafafa;
+}
+
+.bttn:before {
+	display: block;
+	color: #444;
+	font-size: 300%;
+	line-height: 100px;
+}
+
+.icon-mobile:after {
+	content: 'KLICK';
+	border-radius: 5px;
+	padding: 10px 15px;
+	background: $color4;
+	color: #fff;
+	position: absolute;
+	top: -10%;
+	left: 80%;
+	font-family: 'Open Sans',Helvetica,Arial,sans-serif;
+}
